@@ -1,0 +1,3 @@
+check host DB with address 172.31.xx.xx
+    if failed port 3306 protocol mysql with timeout 15 seconds then alert
+    group dbserver

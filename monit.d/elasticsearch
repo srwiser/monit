@@ -1,0 +1,3 @@
+check host elasticsearch_connection with address 0.0.0.0
+  if failed url http://0.0.0.0:9200/ with timeout 15 seconds then alert
+  group elasticsearch
